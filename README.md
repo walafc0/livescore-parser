@@ -12,3 +12,7 @@ How to
 1. Set the TEAM variable (and OUTPUT_FINAL if you want)
 2. ???
 3. Profit !
+
+Dependencies
+==
+Lynx >= 2.3
