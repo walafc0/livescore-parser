@@ -1,6 +1,8 @@
 #!/bin/sh
 
 TEAM=CHANGE_ME
+OUTPUT_FINAL=/tmp/dmenu_score
+
 HOME=0
 LIVE=0
 TEAM_POS=-1
@@ -11,7 +13,7 @@ OUTPUT_MATCH=/tmp/livescore_match.txt
 OUTPUT_TABLE=/tmp/livescore_table.txt
 OUTPUT_DOM=/tmp/livescore_"$TEAM"_dom.txt
 OUTPUT_EXT=/tmp/livescore_"$TEAM"_ext.txt
-OUTPUT_FINAL=/tmp/dmenu_score
+
 
 get_data()
 {
